@@ -1,0 +1,191 @@
+
+#foodimg, #activityimg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+
+  width: 90%;
+  margin: 30px auto;
+}
+.header h2{
+    color: rgba(240, 240, 240, 0.802);
+    font-size: 40px;
+    line-height: 5px;
+    padding-top: 50px;
+
+}
+.card {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+ 
+
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.food1 {
+  background-image: url("../week2/w2images/darkey.jpeg");
+}
+
+.food2 {
+  background-image: url("../week2/w2images/genos.jpeg");
+}
+
+.food3 {
+  background-image: url("../week2/w2images/martello.jpeg");
+}
+
+.food4 {
+  background-image: url("../week2/w2images/pasta.jpeg");
+}
+
+.food5 {
+  background-image: url("../week2/w2images/thai.jpeg");
+}
+
+.food6 {
+  background-image: url("../week2/w2images/thequay.jpeg");
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.70);
+  transition: background-color 0.25s ease;
+
+}
+
+.food-text,
+.activity-text {
+  position: relative;
+  z-index: 1;
+  color: rgba(240, 240, 240, 0.802);;
+  padding: 20px;
+  line-height: 30px;
+  width: 90%;
+}
+
+.food-text h3,
+.activity-text h3 {
+  font-family: 'DM Serif Display';
+  font-size: 32px;
+  text-align: center;
+}
+
+.food-text p,
+.activity-text p {
+  font-family: 'DM Sans';
+  font-size: 18px;
+}
+
+.card:hover .food-text,
+.card:focus .food-text,
+.card:hover .activity-text,
+.card:focus .activity-text {
+  color: #1f1f1fe8;
+  background-color: rgba(142, 132, 75, 0.80);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+
+.card:hover::before,
+.card:focus::before {
+  background-color: rgba(0, 0, 0, 0.40);
+}
+
+.card:hover,
+.card:focus{
+  
+  border-radius: 10px;
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);}
+
+
+
+
+.food {
+    text-align: center;
+    color:rgba(240, 240, 240, 0.802);
+    font-size: 100%;
+    line-height: 5px;
+}
+
+.activity{text-align: center;
+    color:rgba(240, 240, 240, 0.802);
+    font-size: 100%;
+    line-height: 5px;}
+
+
+.activity1 {
+  background-image: url("../week2/w2images/moher.jpeg");
+}
+
+.activity2 {
+  background-image: url("../week2/w2images/drag.jpeg");
+}
+
+.activity3 {
+  background-image: url("../week2/w2images/storehouse.jpeg");
+}
+
+.activity4 {
+  background-image: url("../week2/w2images/galway.jpeg");
+}
+
+.activity5 {
+  background-image: url("../week2/w2images/bray.jpeg");
+}
+
+.activity6 {
+  background-image: url("../week2/w2images/computer.jpeg");
+}
+@media screen and (max-width: 700px){
+   #foodimg, #activityimg {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+
+  width: 90%;
+  margin: 30px auto;
+} 
+}
+
+.controls{display: flex;
+flex-wrap: wrap;
+gap: 10%;
+padding: 10px;
+justify-content: center;
+background-color: rgba(191, 176, 88, 0.611);}
+
+.control{display: flex;background-color: rgba(240, 240, 240, 0.6);
+    border-radius: 10px;
+    border: 2px solid rgba(82, 82, 132, 0.5);
+    padding:6px;
+    font-family: "DM Sans";
+    color:#1f1f1fe8;
+    width: 15%;
+    min-width: 70px;
+    justify-content: center;
+
+}
+.control:hover,
+.control:focus{background-color: rgba(201, 201, 233, 0.5);
+    border-radius: 10px;
+    box-sizing:border-box;
+    font-family: "DM Sans";
+    color:#1F1F1F;}
