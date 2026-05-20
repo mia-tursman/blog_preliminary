@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
     <link href="../dist/css/lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href='../css/w1Style.css'>
+
+  
 </head>
 <body>
 <a class="skip" href="#main">Skip to Main Content</a>
     
-  <nav class="content">
+  <nav id= 'nav' class="content">
     <button class="hamburger" aria-label="Open navigation menu">
     ☰
     </button>
@@ -28,10 +30,9 @@
           <summary class="current-main">Week One</summary>
           <div class="dropdown">
           <ul>
-            <li><a href="week1/week1.html">Summary</a></li>
-            <li><a href="week1/w1pubs.html">Food</a></li>
-            <li><a href="week1/w1towns.html">Towns</a></li>
-            <li><a href="week1/w1tours.html">Tours</a></li>
+            <li><a href="week1.html">Summary</a></li>
+            <li><a href="#food-section">Food</a></li>
+            <li><a href="#activity-section">Activities</a></li>
           </ul>
           </div>
         </details>
@@ -41,12 +42,11 @@
         <details class="nav-dropdown">
           <summary>Week Two</summary>
           <div class="dropdown">
-          <ul>
+            <ul>
             <li><a href="../week2/week2.html">Summary</a></li>
-            <li><a href="../week2/w2pubs.html">Food</a></li>
-            <li><a href="../week2/w2towns.html">Towns</a></li>
-            <li><a href="../week2/w2tours.html">Tours</a></li>
-          </ul>
+            <li><a href="../week2/week2.html#w2food-section">Food</a></li>
+            <li><a href="../week2/week2.html#w2activity-section">Activities</a></li>
+            </ul>
           </div>
         </details>
       </li>
@@ -56,9 +56,8 @@
           <div class="dropdown">
           <ul>
             <li><a href="../week3/week3.html">Summary</a></li>
-            <li><a href="../week3/w3pubs.html">Food</a></li>
-            <li><a href="../week3/w3towns.html">Towns</a></li>
-            <li><a href="../week3/w3tours.html">Tours</a></li>
+            <li><a href="../week3/week3.html#w3food-section">Food</a></li>
+            <li><a href="../week3/week3.html#w3activity-section">Activities</a></li>
           </ul>
           </div>
         </details>
@@ -71,159 +70,158 @@
       <div class="box">
             <h1>Week 1 </h1>
         
-            <p id="shamrock">☘</p>
+            <p id="shamrock">☘︎</p>
+      </div>
     </section>
- <div class="container">
-<section class="food">
- <div id="food">
-    <h2>Food Spots</h2>
-      <div class="second">
-        <p id="foodP" class="subtitle">Click the images to learn more about suggestions </p>
-      </div>
+    <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".food-img">Food</button>
+            <button type="button" class="control" data-filter=".activity-img">Activities</button>
+            <button type="button" class="control" data-filter="none">None</button>
+        </div>
+
+  <div class="container">
+    <section class="food" id = "food-section">
+      <div  class="header mix food-img">
+        <h2>Food Spots</h2>
+          <div class="second">
+            <p class="subtitle">Click the images to learn more about suggestions </p>
+          </div>
+          </div>
 
 
-<section id="foodimg">
+    <section id="foodimg">
 
-<a class="card food1 fade-in" href="onekindafolk.html">
-  <div class="card food1 fade-in">
-    <div class="food-text">
-      <h3>One Kinda Folk</h3>
-      <p>Grab and go sandwich in Dublin</p>
+    <a class="card mix food-img food1 fade-in" href="onekindafolk.html">
+      
+        <div class="food-text">
+          <h3>One Kinda Folk</h3>
+          <p>Grab and go sandwich in Dublin</p>
+        </div>
+      
+    </a>
+
+    <a class="card mix food-img food2 fade-in" href="brotherhubbard.html">
+      
+        <div class="food-text">
+          <h3>Brother Hubbard</h3>
+          <p>Sit down brunch in Dublin</p>
+        </div>
+      
+    </a>
+
+    <a class="card mix food-img food3 fade-in" href="dudleys.html">
+        <div class="food-text">
+        
+          <h3>Dudleys</h3>
+          <p>Pub with food in Dublin</p>
+        </div>
+      </a>
+
+    <a class="card mix food-img food4 fade-in" href="beanhive.html">
+      
+        <div class="food-text">
+          <h3>The Beanhive</h3>
+          <p>Coffee shop in Dublin</p>
+        </div>
+    
+    </a>
+
+    <a class="card mix food-img food5 fade-in" href="burnaby.html">
+      
+        <div class="food-text">
+          <h3>The Burnaby</h3>
+          <p>Pub with food in Greystones</p>
+        </div>
+      
+    </a>
+
+    <a class="card mix food-img food6 fade-in" href="pizza.html">
+        <div class="food-text">
+          <h3>Doom Slice</h3>
+          <p>Detroit pizza and bar in Dublin</p>
+        </div>
+    </a>
+    </section>
+    </section>
+
+
+<section class = "activity" id="activity-section">
+    <div class="header mix activity-img">
+        <h2>Activities and Daytrips</h2>
+        <div class="second">
+            <p class="subtitle">Click the images to learn more about suggestions</p>
+        </div>
     </div>
+      
+
+
+    <section id="activityimg">
+
+      <a class="card mix activity-img activity1 fade-in" href="#">
+        <div class="activity-text">
+          
+            <h3>Greystones</h3>
+            <p>Train from Dublin to the city of Greystones</p>
+          </div>
+    
+      </a>
+
+      <a class="card mix activity-img activity2 fade-in" href="#">
+        <div class="activity-text">
+        
+            <h3>Pub Hopping</h3>
+            <p>Explored pubs in the heart of Dublin</p>
+          
+        </div>
+      </a>
+
+      <a class="card mix activity-img activity3 fade-in" href="dudleys.html">
+        <div class="activity-text">
+          
+            <h3>St. Stephens Green</h3>
+            <p>Read in St. Stephens Green Park</p>
+          
+        </div>
+        </a>
+
+      <a class="card mix activity-img activity4 fade-in" href="beanhive.html">
+        <div class="activity-text">
+          
+            <h3>St. Patricks Cathedral</h3>
+            <p>Visited and sat outside St. Patricks Cathedral</p>
+          
+        </div>
+      </a>
+
+      <a class="card mix activity-img activity5 fade-in" href="burnaby.html">
+        <div class="activity-text">
+          
+            <h3>Malahide Castle</h3>
+            <p>Took train to Malahide and visited the castle and grounds</p>
+          
+        </div>
+      </a>
+
+      <a class="card mix activity-img activity6 fade-in" href="pizza.html">
+        <div class="activity-text">
+          
+            <h3>Howth Cliff Walk</h3>
+            <p>Completed the cliff walk in Howth</p>
+          
+        </div>
+      </a>
+  </section>
   </div>
-</a>
-
-<a class="card food2 fade-in" href="brotherhubbard.html">
-  <div class="card food2 fade-in">
-    <div class="food-text">
-      <h3>Brother Hubbard</h3>
-      <p>Sit down brunch in Dublin</p>
-    </div>
-  </div>
-</a>
-
-<a class="card food3 fade-in" href="dudleys.html">
-  <div class="card food3 fade-in">
-    <div class="food-text">
-      <h3>Dudleys</h3>
-      <p>Pub with food in Dublin</p>
-    </div>
-  </div>
-  </a>
-
-<a class="card food4 fade-in" href="beanhive.html">
-  <div class="card food4 fade-in">
-    <div class="food-text">
-      <h3>The Beanhive</h3>
-      <p>Coffee shop in Dublin</p>
-    </div>
-  </div>
-</a>
-
-<a class="card food5 fade-in" href="burnaby.html">
-  <div class="card food5 fade-in">
-    <div class="food-text">
-      <h3>The Burnaby</h3>
-      <p>Pub with food in Greystones</p>
-    </div>
-  </div>
-</a>
-
-<a class="card food6 fade-in" href="pizza.html">
-  <div class="card food6 fade-in">
-    <div class="food-text">
-      <h3>Doom Slice</h3>
-      <p>Detroit pizza and bar in Dublin</p>
-    </div>
-  </div>
-</a>
-</section>
-      </div>
-
-
-      </div>
-</section>
-
-
-<section class="food">
- <div id="food">
-    <h2>Activities and Daytrips</h2>
-      <div class="second">
-        <p id="foodP" class="subtitle">Click the images to learn more about suggestions</p>
-      </div>
-
-
-<section id="foodimg">
-
-<a class="card activity1 fade-in" href="onekindafolk.html">
-  <div class="card activity1 fade-in">
-    <div class="food-text">
-      <h3>Greystones</h3>
-      <p>Train from Dublin to the city of Greystones</p>
-    </div>
-  </div>
-</a>
-
-<a class="card activity2 fade-in" href="brotherhubbard.html">
-  <div class="card activity2 fade-in">
-    <div class="food-text">
-      <h3>Pub Hopping</h3>
-      <p>Explored pubs in the heart of Dublin</p>
-    </div>
-  </div>
-</a>
-
-<a class="card activity3 fade-in" href="dudleys.html">
-  <div class="card activity3 fade-in">
-    <div class="food-text">
-      <h3>St. Stephens Green</h3>
-      <p>Read in St.Stephens Green Park</p>
-    </div>
-  </div>
-  </a>
-
-<a class="card activity4 fade-in" href="beanhive.html">
-  <div class="card activity4 fade-in">
-    <div class="food-text">
-      <h3>St. Patricks Cathedral</h3>
-      <p>Visited and sat outside St. Patricks Cathedral</p>
-    </div>
-  </div>
-</a>
-
-<a class="card activity5 fade-in" href="burnaby.html">
-  <div class="card activity5 fade-in">
-    <div class="food-text">
-      <h3>Malahide Castle</h3>
-      <p>Took train to Malahide and visited the castle and grounds</p>
-    </div>
-  </div>
-</a>
-
-<a class="card activity6 fade-in" href="pizza.html">
-  <div class="card activity6 fade-in">
-    <div class="food-text">
-      <h3>Howth Cliff Walk</h3>
-      <p>Completed the cliff walk in Howth</p>
-    </div>
-  </div>
-</a>
-</section>
-      </div>
-
-
-      </div>
-
-
-</section>
-</div>
 </main>
 
 
 
 <script src="../dist/js/lightbox-plus-jquery.js"></script>
+
 <script src="../java/script.js"></script>
- <script src="../java/mixitup.js"></script>
+<script src="../java/mixitup.js"></script>
+ 
 
         <script>
             var containerEl = document.querySelector('.container');
@@ -233,8 +231,10 @@
 
 <footer class="content">
 <p>Created by Mia Tursman for SIABRD 339</p>
-
-
+<a href="#nav" class="top">
+  <img src="../images/guiness.jpg" alt="Jump to top">
+  <span>Jump to Top</span>
+</a>
 
 </footer>
 
