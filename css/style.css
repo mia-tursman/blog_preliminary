@@ -59,7 +59,7 @@ nav {
 }
 
 .nav-dropdown summary::before {
-  content: "☘ ";
+  content: "☘︎ ";
   color: #1f1f1fe8;
   font-size: 20px;
 }
