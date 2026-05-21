@@ -613,6 +613,36 @@ padding: 8px; border-radius: 25px; background-color: #dbcd98b8;}
 
 
 
+/* The caption text from data-title */
+.lb-data .lb-caption {
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  color: #f5f0dc;
+  font-style: italic;
+}
+
+/* The Image number text */
+.lb-data .lb-number {
+  font-family: "DM Sans", sans-serif;
+  color: #d8d8d8;
+  font-size: 18px;
+}
+
+
+.lb-dataContainer {
+  background-color: rgba(33, 67, 39, 0.9);
+  padding: 4px;
+  border-radius: 7px;
+  border:3px solid rgb(49, 72, 49);
+}
+
+
+
+
+
+
+
+
 
 
 

@@ -176,7 +176,7 @@ background-color: rgba(191, 176, 88, 0.611);}
     border-radius: 10px;
     border: 2px solid rgba(82, 82, 132, 0.5);
     padding:6px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     color:#1f1f1fe8;
     width: 15%;
     min-width: 70px;
@@ -187,5 +187,5 @@ background-color: rgba(191, 176, 88, 0.611);}
 .control:focus{background-color: rgba(201, 201, 233, 0.5);
     border-radius: 10px;
     box-sizing:border-box;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     color:#1F1F1F;}
