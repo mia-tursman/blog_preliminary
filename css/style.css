@@ -251,11 +251,8 @@ body{
   body{
    margin: 0;
   min-height: 100vh;
-  background-image: url("../images/mobilebackground.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-  background-attachment: fixed;
+  background-image: none;
+  background-color: ivory;
 }
   
 }

@@ -191,7 +191,7 @@ background-color: rgba(191, 176, 88, 0.611);}
     font-family: "DM Sans", sans-serif;
     color:#1F1F1F;}
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 450px){
       .controls{
   display: grid;
   grid-template-columns: 1fr 1fr;
