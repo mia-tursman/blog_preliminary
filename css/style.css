@@ -25,7 +25,7 @@
     background-color: white
 }
 nav {
-  background-color: rgba(191, 175, 88, 0.75);
+  background-color: rgba(191, 175, 88, 0.7);
   padding: 5px;
   height: 70px;
   border-bottom: 3px solid rgba(127, 127, 52, 0.5);
@@ -38,7 +38,7 @@ nav {
   gap: 30px;
   list-style: none;
   color: #1f1f1fe8;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', 'sans-serif';
   margin: 0;
   padding: 0;
   height: 100%;
@@ -47,7 +47,7 @@ nav {
 .main-nav a,
 .main-nav summary {
   color: #1f1f1fe8;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', 'sans-serif';
   display: inline-block;
   padding: 22px 18px;
 }
@@ -136,12 +136,13 @@ nav {
   border: none;
   font-size: 35px;
   color: #1f1f1fe8;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', 'sans-serif';
 }
 
 /*hamburger menu*/
 @media screen and (max-width: 700px) {
-  nav {
+
+    nav {
     height: auto;
     padding: 10px;
   }
@@ -226,7 +227,7 @@ nav {
   margin: 30px auto;
   border-radius: 10px;
   overflow: hidden;
-  background-color: rgba(49, 72, 49, 0.8);
+  background-color: rgba(33, 49, 33, 0.8);
   padding: 0px;
 }
 
@@ -246,8 +247,9 @@ body{
   background-attachment: fixed;
 }
 
+
 h1 {
-  font-family: 'DM Serif Display';
+  font-family: 'Playfair Display';
   text-align: center;
   color: #c6c6c6;
   font-size: 75px;
@@ -282,7 +284,7 @@ h1 {
     color: #242424;
     opacity: 80%;
     text-align: center;
-    font-family:'DM Sans';
+    font-family:'DM Sans', 'sans-serif';
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -303,7 +305,7 @@ padding: 5px;
   text-align: center;  
   color: var(--gold);  
   font-size: 100px;  
-  font-family: 'DM Serif Display';
+  font-family: 'Playfair Display';
   margin-top: -25px;
   margin-bottom: 10px;
 }
@@ -329,7 +331,7 @@ padding: 10px;
 display: grid;
 border-radius: 10px;
 margin: 15px;
-font-family: 'DM Serif Display';
+font-family: 'Playfair Display';
 text-align: center;
 color:#c6c6c6;
 opacity:90%;}
@@ -343,7 +345,7 @@ padding:10px}
     padding:6px;
 background-color: rgba(130, 130, 209, 0.5);}
 
-#itinerary a, #itinerary li{font-family: 'DM Sans';}
+#itinerary a, #itinerary li{font-family: 'DM Sans', 'sans-serif';}
 #itinerary a{background-color: rgba(106, 106, 163,0.5);
     display: flex; justify-content: center; border-radius: 10px;
     padding: 10px;
@@ -352,19 +354,19 @@ background-color: rgba(130, 130, 209, 0.5);}
 
 #w1{display:grid;
 grid-template-columns: 1fr 1fr;}
-#w1 figcaption{font-family: 'DM Sans'; font-size: 50%}
+#w1 figcaption{font-family: 'DM Sans', 'sans-serif'; font-size: 50%}
 #w1 img{width: 200px; padding: 0px;
 border-radius: 10px}
 
 #w2{display:grid;
 grid-template-columns: 1fr 1fr;}
-#w2 figcaption{font-family: 'DM Sans'; font-size: 50%}
+#w2 figcaption{font-family: 'DM Sans', 'sans-serif'; font-size: 50%}
 #w2 img{width: 200px; padding: 0px;
 border-radius: 10px}
 
 #w3{display:grid;
 grid-template-columns: 1fr 1fr;}
-#w3 figcaption{font-family: 'DM Sans'; font-size: 50%}
+#w3 figcaption{font-family: 'DM Sans', 'sans-serif'; font-size: 50%}
 #w3 img{width: 200px; padding: 0px;
 border-radius: 10px}
 
@@ -378,7 +380,7 @@ padding: 10px;}
     display: grid;
     border-radius: 10px;
     margin: 15px;
-    font-family: 'DM Serif Display';
+    font-family: 'Playfair Display';
     text-align: center;
     color:#c6c6c6;
     opacity:90%;
@@ -403,13 +405,13 @@ padding:10px}
     display: grid;
     border-radius: 10px;
     margin: 15px;
-    font-family: 'DM Serif Display';
+    font-family: 'Playfair Display';
     text-align: center;
     color:#c6c6c6;
     opacity:90%;
     }
 #favorites h2 {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Playfair Display', serif;
   color: #c6c6c6;
  
   margin-top: 0;
@@ -458,7 +460,7 @@ padding:10px}
 grid-template-columns: 100%;}
 #aboutMe img{width: 50%;}
 #itinerary li{list-style: circle; text-align: left; font-size: 150%;}
-#w1 figcaption{font-family: 'DM Sans'; font-size: 70%}
+#w1 figcaption{font-family: 'DM Sans', 'sans-serif'; font-size: 70%}
 #w1 img{width: 50%;}
 
 #w1{display:grid;
@@ -466,11 +468,11 @@ grid-template-columns: 1fr;}
 
 #w2{display:grid;
 grid-template-columns: 1fr;}
-#w2 figcaption{font-family: 'DM Sans'; font-size: 70%}
+#w2 figcaption{font-family: 'DM Sans', 'sans-serif'; font-size: 70%}
 #w2 img{width: 50%;}
 #w3{display:grid;
 grid-template-columns: 1fr;}
-#w3 figcaption{font-family: 'DM Sans'; font-size: 70%}
+#w3 figcaption{font-family: 'DM Sans', 'sans-serif'; font-size: 70%}
 #w3 img{width: 50%;}
 }
 
@@ -487,7 +489,7 @@ grid-template-columns: 1fr;}
 
 }
 
-#galleryTitle{font-family: 'DM Serif Display';
+#galleryTitle{font-family: 'Playfair Display';
  text-align: center;
   color: #c6c6c6;
   font-size: 60px;
@@ -544,7 +546,7 @@ footer {
   border-top: 4px solid rgba(127, 127, 52, 0.6);
 
   color: #242424;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: italic;
   font-size: 1rem;
 }
@@ -555,7 +557,7 @@ footer {
   gap: 4px;
 
   text-decoration: none;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #242424;
   font-style: normal;
 }
@@ -578,7 +580,7 @@ footer {
 }
 .top {
     
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #242424;
   text-decoration: none;
   font-style: normal;
@@ -615,7 +617,7 @@ padding: 8px; border-radius: 25px; background-color: #dbcd98b8;}
 
 /* The caption text from data-title */
 .lb-data .lb-caption {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 25px;
   color: #f5f0dc;
   font-style: italic;
@@ -623,7 +625,7 @@ padding: 8px; border-radius: 25px; background-color: #dbcd98b8;}
 
 /* The Image number text */
 .lb-data .lb-number {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #d8d8d8;
   font-size: 18px;
 }
@@ -635,6 +637,7 @@ padding: 8px; border-radius: 25px; background-color: #dbcd98b8;}
   border-radius: 7px;
   border:3px solid rgb(49, 72, 49);
 }
+
 
 
 
