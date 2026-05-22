@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Kinda Folk</title>
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.jpeg">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="../dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/W3schools,ai.css">
+  <link rel="stylesheet" href="../css/places.css">
+</head>
+
+<body>
+  <a class="skip" href="#main-rec">Skip to Main Content</a>
+
+  <nav id="nav" class="content">
+    <button class="hamburger" aria-label="Open navigation menu">
+      ☰
+    </button>
+
+    <ul class="main-nav">
+      <li><a id="home" class="nav" href="../index.html">Home</a></li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary class="current-main">Week One</summary>
+          <div class="dropdown">
+            <ul>
+              <li><a href="week1.html">Summary</a></li>
+              <li><a href="week1.html#food-section">Food</a></li>
+              <li><a href="week1.html#activity-section">Activities</a></li>
+            </ul>
+          </div>
+        </details>
+      </li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary>Week Two</summary>
+          <div class="dropdown">
+            <ul>
+              <li><a href="../week2/week2.html">Summary</a></li>
+              <li><a href="../week2/week2.html#w2food-section">Food</a></li>
+              <li><a href="../week2/week2.html#w2activity-section">Activities</a></li>
+            </ul>
+          </div>
+        </details>
+      </li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary>Week Three</summary>
+          <div class="dropdown">
+            <ul>
+              <li><a href="../week3/week3.html">Summary</a></li>
+              <li><a href="../week3/week3.html#w3food-section">Food</a></li>
+              <li><a href="../week3/week3.html#w3activity-section">Activities</a></li>
+            </ul>
+          </div>
+        </details>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="recommendation-page" id="main-rec">
+
+    <section class="rec-herobh">
+      <div class="rec-overlay">
+        <h1>Brother Hubbard</h1>
+        <p id="shamrock">☘︎</p>
+        <p class="rec-tagline">Sit down brunch in Dublin</p>
+      </div>
+    </section>
+
+    <section class="rec-content">
+
+      <div class="rec-info">
+
+        <div id="Overview" class="fade-in">
+          <h2>Overview</h2>
+
+          <ul>
+            <li>Food Style: Sit down brunch</li>
+            <li>Suitable for: Medium-size groups</li>
+            <li>Takeout: Yes, but preferable to sit-in</li>
+            <li>Address: 153 Capel St, North City, Dublin, D01 V9V0</li>
+          </ul>
+
+          <a class="googlelink" href="https://share.google/VrMoj7YeVpRvVMQ1s" target="_blank">
+            View Google Overview
+          </a>
+        </div>
+
+        <div id="experience" class="fade-in">
+          <h2>My Experience</h2>
+
+          <p>
+            We visited this restaurant in a group of seven and were seated immediately.
+            This place had a lovely aesthetic, and the group got a variety of meals,
+            including: pastries, coffees, soups, and wraps! I personally got the curry
+            chicken wrap with the potato soup on the side. It was a perfect and easy
+            brunch place for our large group.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="rec-photo-card fade-in">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="w1images/hubbard1.jpeg" alt="window with plants hanging">
+            <div class="text">Inside of Brother Hubbard</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="w1images/hubbard2.jpeg" alt="wrap on a plate with a bowl of soup">
+            <div class="text">Brother Hubbard chicken wrap</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="w1images/hubbard3.jpeg" alt="outdoor seating at a restaurant">
+            <div class="text">Outside Brother Hubbard</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="w1images/hubbard4.jpeg" alt="Indoor seating at a restaurant with a coral color scheme">
+            <div class="text">Inside Brother Hubbard</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+    </section>
+
+    <a class="back-link fade-in" href="week1.html#food-section">← Back to Week 1 Food</a>
+
+  </main>
+
+  <script src="../dist/js/lightbox-plus-jquery.js"></script>
+  <script src="../java/script.js"></script>
+  <script src="../java/ai.js"></script>
+</body>
+</html>
