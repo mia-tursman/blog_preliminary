@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Kinda Folk</title>
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.jpeg">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="../dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/W3schools,ai.css">
+  <link rel="stylesheet" href="../css/places.css">
+</head>
+
+<body>
+  <a class="skip" href="#main-rec">Skip to Main Content</a>
+
+   <nav id= 'nav' class="content">
+    <button class="hamburger" aria-label="Open navigation menu">
+    ☰
+    </button>
+    
+    <ul class="main-nav">
+      
+      <li><a id="home" class="nav" href="../index.html">Home</a></li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary >Week One</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week1/week1.html">Summary</a></li>
+            <li><a href="../week1/week1.html#food-section">Food</a></li>
+            <li><a href="../week1/week1.html#activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+
+       <li>
+        <details class="nav-dropdown">
+          <summary class="current-main">Week Two</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="week2.html">Summary</a></li>
+            <li><a href="week2.html#w2food-section">Food</a></li>
+            <li><a href="week2.html#w2activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+    <li>
+      <details class="nav-dropdown">
+        <summary>Week Three</summary>
+        <div class="dropdown">
+          <ul>
+            <li><a href="../week3/week3.html">Summary</a></li>
+            <li><a href="../week3/week3.html#w3food-section">Food</a></li>
+            <li><a href="../week3/week3.html#w3activity-section">Activities</a></li>
+          </ul>
+        </div>
+      </details>
+  </li>
+    
+  </nav>
+
+
+  <main class="recommendation-page" id="main-rec">
+
+    <section class="rec-heroquay">
+      <div class="rec-overlay">
+        <h1>The Quay Pub</h1>
+        <p id="shamrock">☘︎</p>
+        <p class="rec-tagline">Fun pub in Galway</p>
+      </div>
+    </section>
+
+    <section class="rec-content">
+
+      <div class="rec-info">
+
+        <div id="Overview" class="fade-in">
+          <h2>Overview</h2>
+
+          <ul>
+            <li>Food Style: Pub</li>
+            <li>Suitable for: Any size group</li>
+            <li>Takeout: No</li>
+            <li>Address: Quay Ln, Galway</li>
+          </ul>
+
+           <a class= googlelink href= https://quaysgalway.ie/ target="_blank"> View Website</a> 
+        </div>
+
+        <div id="experience" class="fade-in">
+          <h2>My Experience</h2>
+
+          <p>
+            This was a very fun and lively pub in Galway. We went with a large group, and, while the place was very crowded, we were able to meet a lot of new people. There was very good live music, and we got pints of guinness. This is the main tourist bar in Galway and is the heart of night-life in the city.
+        </div>
+
+      </div>
+       <div class="rec-photo-card fade-in">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="w2images/quay.JPG" alt="Group of three girls with a guinness glass">
+            <div class="text">Me, Anna (right), willow (left)</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="w2images/quay1.JPG" alt="group of seven girls in dim lit pub">
+            <div class="text">Our group</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="w2images/quay2.png" alt="large crowd of people in pub">
+            <div class="text">View behind the stage</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="w2images/quay3.png" alt="Two singers, one with a guitar">
+            <div class="text">Live music</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+    </section>
+
+     <a class="back-link fade-in" href="week2.html#w2food-section">← Back to Week 2 Food</a>
+
+  </main>
+
+  <script src="../dist/js/lightbox-plus-jquery.js"></script>
+  <script src="../java/script.js"></script>
+  <script src="../java/ai.js"></script>
+</body>
+</html>
