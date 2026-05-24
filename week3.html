@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link href="../dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href='../css/w3style.css'>
+
+  
+</head>
+<body>
+<a class="skip" href="#main">Skip to Main Content</a>
+    
+  <nav id= 'nav' class="content">
+    <button class="hamburger" aria-label="Open navigation menu">
+    ☰
+    </button>
+    
+    <ul class="main-nav">
+      
+      <li><a id="home" class="nav" href="../index.html">Home</a></li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary >Week One</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week1/week1.html">Summary</a></li>
+            <li><a href="../week1/week1.html#food-section">Food</a></li>
+            <li><a href="../week1/week1.html#activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+
+       <li>
+        <details class="nav-dropdown">
+          <summary>Week Two</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week2/week2.html">Summary</a></li>
+            <li><a href="../week2/week2.html#w2food-section">Food</a></li>
+            <li><a href="../week2/week2.html#w2activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+        <li>
+        <details class="nav-dropdown">
+          <summary  class="current-main">Week Three</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="week3.html">Summary</a></li>
+            <li><a href="week3.html#w3food-section">Food</a></li>
+            <li><a href="week3.html#w3activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      
+      </li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <section class="head">
+      <div class="box">
+            <h1>Week 3 </h1>
+        
+            <p id="shamrock">☘︎</p>
+      </div>
+    </section>
+    <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".food-img">Food</button>
+            <button type="button" class="control" data-filter=".activity-img">Activities</button>
+            <button type="button" class="control" data-filter="none">None</button>
+        </div>
+
+  <div class="container">
+    <section class="food" id = "w3food-section">
+      <div  class="header mix food-img">
+        <h2>Food Spots</h2>
+          <div class="second">
+            <p class="subtitle">Click the images to learn more about suggestions </p>
+          </div>
+          </div>
+
+
+    <section id="foodimg">
+
+    <a class="card mix food-img food1 fade-in" href="finbees.html">
+      
+        <div class="food-text">
+          <h3>Finbees</h3>
+          <p>Coffee and pastries in Bray</p>
+        </div>
+      
+    </a>
+
+    <a class="card mix food-img food2 fade-in" href="sushi.html">
+      
+        <div class="food-text">
+          <h3>Panda</h3>
+          <p>Affordable sushi in Dublin</p>
+        </div>
+      
+    </a>
+    </section>
+    </section>
+
+
+
+<section class = "activity" id="w3activity-section">
+    <div class="header mix activity-img">
+        <h2>Activities and Daytrips</h2>
+        <div class="second">
+            <p class="subtitle">Click the images to learn more about suggestions</p>
+        </div>
+    </div>
+      
+
+
+    <section id="activityimg">
+
+      <a class="card mix activity-img activity1 fade-in" href="bray.html">
+        <div class="activity-text">
+          
+            <h3>Bray Cliff Walk</h3>
+            <p>Scenic cliff walk in Bray</p>
+          </div>
+    
+      </a>
+
+      <a class="card mix activity-img activity2 fade-in" href="phoenix.html">
+        <div class="activity-text">
+        
+            <h3>Phoenix Park</h3>
+            <p>Visited and fed deer in Phoenix Park, Dublin</p>
+          
+        </div>
+      </a>
+
+      <a class="card mix activity-img activity5 fade-in" href="belfast.html">
+        <div class="activity-text">
+          
+            <h3>Northern Ireland</h3>
+            <p>Took a bus tour to Northern Ireland</p>
+          
+        </div>
+      </a>
+
+      <a class="card mix activity-img activity6 fade-in" href="swim.html">
+        <div class="activity-text">
+          
+            <h3>Fourty-Foot</h3>
+            <p>Went swimming on the eastern coast</p>
+          
+        </div>
+      </a>
+  </section>
+  </div>
+</main>
+
+
+
+<script src="../dist/js/lightbox-plus-jquery.js"></script>
+
+<script src="../java/script.js"></script>
+<script src="../java/mixitup.js"></script>
+ 
+
+        <script>
+            var containerEl = document.querySelector('.container');
+
+            var mixer = mixitup(containerEl);
+        </script>
+
+<footer class="content">
+<p>Created by Mia Tursman for SIABRD 339</p>
+<a href="#nav" class="top">
+  <img src="../images/guiness.jpg" alt="cartoon guinness glass">
+  <span>Jump to Top</span>
+</a>
+
+
+</footer>
+
+</body>
+</html>

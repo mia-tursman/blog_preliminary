@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bray</title>
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="../dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/W3schools,ai.css">
+  <link rel="stylesheet" href="../css/places.css">
+</head>
+
+<body>
+  <a class="skip" href="#main-rec">Skip to Main Content</a>
+
+<nav id= 'nav' class="content">
+    <button class="hamburger" aria-label="Open navigation menu">
+    ☰
+    </button>
+    
+    <ul class="main-nav">
+      
+      <li><a id="home" class="nav" href="../index.html">Home</a></li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary >Week One</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week1/week1.html">Summary</a></li>
+            <li><a href="../week1/week1.html#food-section">Food</a></li>
+            <li><a href="../week1/week1.html#activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+
+       <li>
+        <details class="nav-dropdown">
+          <summary>Week Two</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week2/week2.html">Summary</a></li>
+            <li><a href="../week2/week2.html#w2food-section">Food</a></li>
+            <li><a href="../week2/week2.html#w2activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+        <li>
+        <details class="nav-dropdown">
+          <summary  class="current-main">Week Three</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="week3.html">Summary</a></li>
+            <li><a href="week3.html#w3food-section">Food</a></li>
+            <li><a href="week3.html#w3activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      
+      </li>
+    </ul>
+  </nav>
+
+
+  <main class="recommendation-page" id="main-rec">
+
+    <section class="rec-herobray">
+      <div class="rec-overlay">
+        <h1>Bray Cliff Walk</h1>
+        <p id="shamrock">☘︎</p>
+        <p class="rec-tagline">Walk along the coast from Bray to Greystones</p>
+      </div>
+    </section>
+
+    <section class="rec-content">
+
+      <div class="rec-info">
+
+        <div id="Overview" class="fade-in">
+          <h2>Overview</h2>
+
+          <ul>
+            <li>Duration: 2-hour hike</li>
+            <li>Travel Logistics: 40-minute train south to Bray on the <a class=inlink href=
+        'https://www.transportforireland.ie/fares/leap-card/' target="_blank">LEAP card system</a></li>
+            <li>Start the hike in Bray, end in Greystones, and take the train back from Greystones</li>
+          </ul>
+        </div>
+
+        <div id="experience" class="fade-in">
+          <h2>My Experience</h2>
+
+          <p>I started my day by taking the train from Dublin to Bray, where I got coffee at <a class=inlink href=finbees.html target="_blank">Finbees Coffee House</a> coffee house. From there, I started the hike in Bray. This hike is gorgeous and follows the coast and the train tracks all the way to Greystones. There is a section that has been closed off for the past couple of years. However, the trail was safe, and locals told me to go around the closed-off fence to complete the hike. The trail was not too difficult, and ended in Greystones, where you then take the train back to Dublin. 
+
+    </p>
+        </div>
+
+      </div>
+
+      <div class="rec-photo-card fade-in">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="w3images/bray1.jpeg" alt="mia taking a selfie in front of ocean">
+            <div class="text">Me by the cliffs</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="w3images/bray2.jpeg" alt="a cliff into the ocean">
+            <div class="text">Bray cliffs</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="w3images/bray3.jpeg" alt="cliffs into the ocean with a train track">
+            <div class="text">The train track along the coast</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="w3images/bray4.jpeg" alt="a fence saying closed with a yellow arrow pointing to a hole in the fence">
+            <div class="text">Locals told me to follow the yellow arrow</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+    </section>
+
+    <a class="back-link fade-in" href="week3.html#w3activity-section">← Back to Week 3 Activities</a>
+
+  </main>
+
+  <script src="../dist/js/lightbox-plus-jquery.js"></script>
+  <script src="../java/script.js"></script>
+  <script src="../java/ai.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda</title>
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="../dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/places.css">
+</head>
+
+<body>
+  <a class="skip" href="#main-rec">Skip to Main Content</a>
+
+  <nav id= 'nav' class="content">
+    <button class="hamburger" aria-label="Open navigation menu">
+    ☰
+    </button>
+    
+    <ul class="main-nav">
+      
+      <li><a id="home" class="nav" href="../index.html">Home</a></li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary >Week One</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week1/week1.html">Summary</a></li>
+            <li><a href="../week1/week1.html#food-section">Food</a></li>
+            <li><a href="../week1/week1.html#activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+
+       <li>
+        <details class="nav-dropdown">
+          <summary>Week Two</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week2/week2.html">Summary</a></li>
+            <li><a href="../week2/week2.html#w2food-section">Food</a></li>
+            <li><a href="../week2/week2.html#w2activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+        <li>
+        <details class="nav-dropdown">
+          <summary  class="current-main">Week Three</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="week3.html">Summary</a></li>
+            <li><a href="week3.html#w3food-section">Food</a></li>
+            <li><a href="week3.html#w3activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      
+      </li>
+    </ul>
+  </nav>
+
+  <main class="recommendation-page" id="main-rec">
+
+    <section class="rec-sushi">
+      <div class="rec-overlay">
+        <h1>Panda</h1>
+        <p id="shamrock">☘︎</p>
+        <p class="rec-tagline">Sushi in Dublin</p>
+      </div>
+    </section>
+
+    <section class="rec-content">
+
+      <div class="rec-info">
+
+        <div id="Overview" class="fade-in">
+          <h2>Overview</h2>
+
+          <ul>
+            <li>Food Style: Sushi dinner</li>
+            <li>Suitable for: Small Groups</li>
+            <li>Takeout: Yes</li>
+            <li>Address: Apartment 5, Bond St, Saint Catherine's, Dublin, D08 YV8A</li>
+          </ul>
+
+           <a class= googlelink href= https://www.pandarestaurant.ie/ target="_blank"> View Website</a> 
+        </div>
+
+        <div id="experience" class="fade-in">
+          <h2>My Experience</h2>
+
+          <p>
+            We went to this place hoping to sit and eat dinner, however they were on a two hour wait. If you are looking to visit here, I would suggest getting a reservation, or we got takeout. I got a salmon, cream cheese roll as well as pork gyoza and both were delicious and the perfect takeout option in the liberties. This meal was affordable as sushi goes, and it ended up being about 20 euros.
+          </p>
+        </div>
+
+      </div>
+
+    <figure class="rec-photo-card fade-in">
+        <img src="../week3/w3images/gyoza.jpeg" alt="six fried dumplings with a dark sauce">
+        <figcaption class="figcap">Pork Gyoza</figcaption>
+    </figure>
+
+    </section>
+
+    <a class="back-link fade-in" href="week3.html#w3food-section">← Back to Week 3 Food</a>
+
+  </main>
+
+  <script src="../dist/js/lightbox-plus-jquery.js"></script>
+  <script src="../java/script.js"></script>
+</body>
+</html>
