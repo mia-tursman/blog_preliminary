@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malahide</title>
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.jpeg">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="../dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/W3schools,ai.css">
+  <link rel="stylesheet" href="../css/places.css">
+</head>
+
+<body>
+  <a class="skip" href="#main-rec">Skip to Main Content</a>
+
+<nav id= 'nav' class="content">
+    <button class="hamburger" aria-label="Open navigation menu">
+    ☰
+    </button>
+    
+    <ul class="main-nav">
+      
+      <li><a id="home" class="nav" href="../index.html">Home</a></li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary >Week One</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week1/week1.html">Summary</a></li>
+            <li><a href="../week1/week1.html#food-section">Food</a></li>
+            <li><a href="../week1/week1.html#activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+
+       <li>
+        <details class="nav-dropdown">
+          <summary>Week Two</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="../week2/week2.html">Summary</a></li>
+            <li><a href="../week2/week2.html#w2food-section">Food</a></li>
+            <li><a href="../week2/week2.html#w2activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      </li>
+        <li>
+        <details class="nav-dropdown">
+          <summary  class="current-main">Week Three</summary>
+          <div class="dropdown">
+          <ul>
+            <li><a href="week3.html">Summary</a></li>
+            <li><a href="week3.html#w3food-section">Food</a></li>
+            <li><a href="week3.html#w3activity-section">Activities</a></li>
+          </ul>
+          </div>
+        </details>
+      
+      </li>
+    
+  </nav>
+
+
+  <main class="recommendation-page" id="main-rec">
+
+    <section class="rec-herobelfast">
+      <div class="rec-overlay">
+        <h1>Northern Ireland</h1>
+        <p id="shamrock">☘︎</p>
+        <p class="rec-tagline">Bus tour through Northern Ireland</p>
+      </div>
+    </section>
+
+    <section class="rec-content">
+
+      <div class="rec-info">
+
+        <div id="Overview" class="fade-in">
+          <h2>Overview</h2>
+
+          <ul>
+            <li>Duration: 12 hours</li>
+            <li>I booked a day-long bus tour through <a class="inlink" href=https://www.getyourguide.com/en-gb/dublin-l31/from-dublin-giant-s-causeway-dark-hedge-belfast-tour-t18721/ target="_blank">“Get Your Guide”</a></li>
+            <li>We stopped at: The Dark Hedges, the Giant's Causeway, and Belfast</li>
+          </ul>
+        </div>
+
+        <div id="experience" class="fade-in">
+          <h2>My Experience</h2>
+
+          <p>This tour was awesome and cost us about $80. We boarded the bus at 6:30 AM and drove to the dark hedges first, which is a location in the Game of Thrones. While these were a bit underwhelming, it was still cool to see. We then went to the Giant's Causeway, which was the absolute highlight of my entire trip. We had lovely weather, and the views of the incredible rock formations and cliffs were amazing; you could even see the Scottish coast in the distance! Next, we drove to Belfast, where we were only able to spend about an hour and a half, which was a little disappointing, but still cool to explore. This tour was an amazing way to quickly see the main highlights of Northern Ireland, and I would definitely recommend it!
+          </p>
+        </div>
+
+      </div>
+
+      <div class="rec-photo-card fade-in">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="w3images/causeway1.jpeg" alt="mia in front of a large cliff and ocean view">
+            <div class="text">Views at the top of Giant's Causeway</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="w3images/belfast.jpeg" alt="old cathedral exterior">
+            <div class="text">Belfast</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="w3images/hedges.jpeg" alt="large trees with curvy branches">
+            <div class="text">The Dark Hedges</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="w3images/causeway2.jpeg" alt="hexagon shaped stones along the ocean">
+            <div class="text">Giant's Causeway</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+    </section>
+
+    <a class="back-link fade-in" href="week3.html#w3activity-section">← Back to Week 3 Activities</a>
+
+  </main>
+
+  <script src="../dist/js/lightbox-plus-jquery.js"></script>
+  <script src="../java/script.js"></script>
+  <script src="../java/ai.js"></script>
+</body>
+</html>

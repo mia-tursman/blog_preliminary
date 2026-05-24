@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Finbees</title>
+  <title>Malahide</title>
 
-  <link rel="icon" type="image/x-icon" href="../images/favicon.jpeg">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.jpeg">
 
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
@@ -14,13 +14,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link href="../dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/W3schools,ai.css">
   <link rel="stylesheet" href="../css/places.css">
 </head>
 
 <body>
   <a class="skip" href="#main-rec">Skip to Main Content</a>
 
-  <nav id= 'nav' class="content">
+<nav id= 'nav' class="content">
     <button class="hamburger" aria-label="Open navigation menu">
     ☰
     </button>
@@ -70,13 +71,14 @@
     
   </nav>
 
+
   <main class="recommendation-page" id="main-rec">
 
-    <section class="rec-finbees">
+    <section class="rec-herodeer">
       <div class="rec-overlay">
-        <h1>Finbees Coffee House</h1>
+        <h1>Phoenix Park</h1>
         <p id="shamrock">☘︎</p>
-        <p class="rec-tagline">Cute Cafe in Bray</p>
+        <p class="rec-tagline">Visiting the deer in Phoenix Park</p>
       </div>
     </section>
 
@@ -88,37 +90,69 @@
           <h2>Overview</h2>
 
           <ul>
-            <li>Food Style: Cafe</li>
-            <li>Suitable for: Large Groups</li>
-            <li>Takeout: Yes</li>
-            <li>Address: The Seafront, Victoria Ave, Bray, Co. Wicklow, A98 N8N3</li>
+            <li>Duration: 2 hours</li>
+            <li>About 30 minutes from the Temple Bar district</li>
+            <li>Enter through the main front entrance of Phoenix Park and walk until you see deer to the side</li>
           </ul>
-
-           <a class= googlelink href= https://share.google/C8bHji8WLm438GW2r target="_blank"> View Google Overview</a> 
         </div>
 
         <div id="experience" class="fade-in">
           <h2>My Experience</h2>
 
-          <p>
-            This cafe was very cute located in the small town of Bray, which is south of Dublin. I got an iced vanilla latte and an eclair and both were not the best I have had, but good. The cafe is cute and has outdoor and indoor seating overlooking the water. I recommend sitting upstairs, as this has the best panoramic water views.
-          </p>
+          <p>This was one of our trip highlights. We went to Phoenix Park with carrots and cashews (even though it says not to feed the deer), and we walked along the main sidewalk until we spotted a large herd of deer to our left. We walked over and fed them carrots and nuts, but we found the nuts were a lot easier to control. When we attempted with the carrots, we were immediately swarmed, whereas with nuts, we were able to conceal that we had them until we were ready. The deer were so friendly and came right up to us, which was so fun.
+    </p>
         </div>
 
       </div>
 
-    <figure class="rec-photo-card fade-in">
-        <img src="../week3/w3images/finbees.jpeg" alt="out the window where there is a balcony overlooking water and a cliff">
-        <figcaption class="figcap">View from upstairs at Finbees Coffee House</figcaption>
-    </figure>
+      <div class="rec-photo-card fade-in">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="w3images/deer1.JPG" alt="close up of a deer">
+            <div class="text">Deer Closeup</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="w3images/deer2.JPG" alt="Mia feeding a deer">
+            <div class="text">Feeding the deer</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="w3images/deer3.jpeg" alt="large group of deer sleeping in the grass">
+            <div class="text">So many deer</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="w3images/deer4.JPG" alt="Mia petting a deer">
+            <div class="text">Petting the deer</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
 
     </section>
 
-    <a class="back-link fade-in" href="week3.html#w3food-section">← Back to Week 3 Food</a>
+    <a class="back-link fade-in" href="week3.html#w3activity-section">← Back to Week 3 Activities</a>
 
   </main>
 
   <script src="../dist/js/lightbox-plus-jquery.js"></script>
   <script src="../java/script.js"></script>
+  <script src="../java/ai.js"></script>
 </body>
 </html>
