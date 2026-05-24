@@ -142,7 +142,7 @@
 }
 
 .activity5 {
-  background-image: url("../week3/w3images/google.jpeg");
+  background-image: url("../week3/w3images/causeway.jpeg");
 }
 
 .activity6 {
@@ -194,3 +194,8 @@ background-color: rgba(191, 176, 88, 0.611);}
 
 }
     }
+
+  .header.food-img.mix .second .subtitle,
+.header.activity-img.mix .second .subtitle {
+  color: #1f211f;
+}

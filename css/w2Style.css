@@ -199,3 +199,8 @@ background-color: rgba(191, 176, 88, 0.611);}
 
 }
     }
+
+    .header.food-img.mix .second .subtitle,
+.header.activity-img.mix .second .subtitle {
+  color: #1f211f;
+}
