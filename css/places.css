@@ -61,6 +61,51 @@
   background-position: center;
   border-radius: 10px 10px 0 0;
 }
+
+.rec-herogreystone{background-image: url("../week1/w1images/greystones4.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+.rec-heropubs{background-image: url("../week1/w1images/pub.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+.rec-heropatrick{background-image: url("../week1/w1images/stpatricks.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.rec-herostephen{background-image: url("../week1/w1images/stephens.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.rec-heromalahide{background-image: url("../week1/w1images/malahideCastle.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.rec-herohowth{background-image: url("../week1/w1images/howthwalk.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+.rec-heromoher{background-image: url("../week2/w2images/moher.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.rec-herodrag{background-image: url("../week2/w2images/drag.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+.rec-herostorehouse{background-image: url("../week2/w2images/guinness1.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+.rec-herogalway{background-image: url("../week2/w2images/galway.jpeg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
 .rec-overlay {
   min-height: 350px;
   background-color: rgba(0, 0, 0, 0.55);
@@ -297,4 +342,16 @@
     width: fit-content;
     margin: 0 auto;
     color: #D1D1D1;
+}
+.inlink{
+  color:#c6c6c6;
+  background-color: #475547;
+  padding: 2px;
+
+}
+
+.inlink:hover{
+  color:#1f1f1f;
+  background-color: rgba(191, 176, 88, 0.715);
+
 }
