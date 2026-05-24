@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malahide</title>
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.jpeg">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Serif Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="../dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/W3schools,ai.css">
+  <link rel="stylesheet" href="../css/places.css">
+</head>
+
+<body>
+  <a class="skip" href="#main-rec">Skip to Main Content</a>
+
+  <nav id="nav" class="content">
+    <button class="hamburger" aria-label="Open navigation menu">
+      ☰
+    </button>
+
+    <ul class="main-nav">
+      <li><a id="home" class="nav" href="../index.html">Home</a></li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary class="current-main">Week One</summary>
+          <div class="dropdown">
+            <ul>
+              <li><a href="week1.html">Summary</a></li>
+              <li><a href="week1.html#food-section">Food</a></li>
+              <li><a href="week1.html#activity-section">Activities</a></li>
+            </ul>
+          </div>
+        </details>
+      </li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary>Week Two</summary>
+          <div class="dropdown">
+            <ul>
+              <li><a href="../week2/week2.html">Summary</a></li>
+              <li><a href="../week2/week2.html#w2food-section">Food</a></li>
+              <li><a href="../week2/week2.html#w2activity-section">Activities</a></li>
+            </ul>
+          </div>
+        </details>
+      </li>
+
+      <li>
+        <details class="nav-dropdown">
+          <summary>Week Three</summary>
+          <div class="dropdown">
+            <ul>
+              <li><a href="../week3/week3.html">Summary</a></li>
+              <li><a href="../week3/week3.html#w3food-section">Food</a></li>
+              <li><a href="../week3/week3.html#w3activity-section">Activities</a></li>
+            </ul>
+          </div>
+        </details>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="recommendation-page" id="main-rec">
+
+    <section class="rec-heromalahide">
+      <div class="rec-overlay">
+        <h1>Malahide Castle</h1>
+        <p id="shamrock">☘︎</p>
+        <p class="rec-tagline">Visiting Malahide castle grounds</p>
+      </div>
+    </section>
+
+    <section class="rec-content">
+
+      <div class="rec-info">
+
+        <div id="Overview" class="fade-in">
+          <h2>Overview</h2>
+
+          <ul>
+            <li>Duration: 5 hours</li>
+            <li>Travel Logistics: 30-40 minute DART train from Dublin</li>
+            <li>Take the train from Tara St. Station toward Malahide until the end of the line</li>
+            <li>This trip is on the <a class=inlink href='https://www.transportforireland.ie/fares/leap-card/' target="_blank">LEAP System</a></li>
+          </ul>
+        </div>
+
+        <div id="experience" class="fade-in">
+          <h2>My Experience</h2>
+
+          <p>I took the train to Malahide and went straight from the station to the castle grounds. We paid 10 euros to explore the gardens and visit the butterfly gardens as well. After exploring, we walked around the castle, which was beautiful. It is an option to tour the inside, but we did not choose to do this as the timing didn’t work. After the castle, we walked around Malahide, the town was not too interesting, and the main attraction was the castle. I would recommend the castle area, but it is not necessary to spend too much time in Malahide.
+	   
+          </p>
+        </div>
+
+      </div>
+
+      <div class="rec-photo-card fade-in">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="w1images/malahide1.jpeg" alt="a grey castle">
+            <div class="text">Front of the castle</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="w1images/malahide2.jpeg" alt="mia in front of castle">
+            <div class="text">Me at Malahide</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="w1images/malahide3.jpeg" alt="garden with green tress">
+            <div class="text">Malahide Castle Gardens</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="w1images/malahide4.jpeg" alt="A butterfly">
+            <div class="text">Butterfly Garden</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+    </section>
+
+    <a class="back-link fade-in" href="week1.html#activity-section">← Back to Week 1 Activities</a>
+
+  </main>
+
+  <script src="../dist/js/lightbox-plus-jquery.js"></script>
+  <script src="../java/script.js"></script>
+  <script src="../java/ai.js"></script>
+</body>
+</html>
