@@ -120,6 +120,11 @@
   background-position: center;
   border-radius: 10px 10px 0 0;
 }
+
+.rec-swim{background-image: url("../week3/w3images/fortyfoot1.jpg");background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
 .rec-overlay {
   min-height: 350px;
   background-color: rgba(0, 0, 0, 0.632);

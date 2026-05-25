@@ -22,12 +22,14 @@
 
 .skip:focus{
     left:10px;
-    background-color: white
+    background-color: white;
+    z-index: 1000
 }
 nav {
   background-color: rgba(191, 176, 88, 0.797);
   padding: 5px;
   height: 70px;
+  margin:0px;
   border-bottom: 3px solid rgba(127, 127, 52, 0.5);
 }
 
@@ -414,7 +416,8 @@ padding:10px}
             opacity: 100%;
 }
 
-#aboutMe p{font-family:'DM Sans'}
+#aboutMe p{font-family:'DM Sans';
+line-height: 1.5;}
 
 
 #favorites{background-color: rgba(44, 59, 44, 0.5);
@@ -516,7 +519,7 @@ grid-template-columns: 1fr;}
   letter-spacing: 4px;
   border-radius: 10px;
 width: 90%;
-padding: 10px;
+padding: 14px;
 background-color: rgba(106, 106, 163,0.5);
 }
 
@@ -657,8 +660,6 @@ padding: 8px; border-radius: 25px; background-color: #dbcd98b8;
   border-radius: 7px;
   border:3px solid rgb(49, 72, 49);
 }
-
-
 
 
 

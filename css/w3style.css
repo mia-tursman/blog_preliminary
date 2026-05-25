@@ -93,7 +93,7 @@
 .card:hover .activity-text,
 .card:focus .activity-text {
   color: #1f1f1fe8;
-  background-color: rgba(142, 132, 75, 0.80);
+  background-color: rgba(142, 132, 75, 0.9);
   border-radius: 10px;
   padding: 2px;
 }
@@ -148,7 +148,7 @@
 }
 
 .activity6 {
-  background-image: url("../week3/w3images/computer.jpeg");
+  background-image: url("../week3/w3images/fortyfoot.jpg");
 }
 @media screen and (max-width: 700px){
    #foodimg, #activityimg {
