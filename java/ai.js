@@ -43,3 +43,20 @@ function showSlides(n) {
     dots[slideIndex - 1].classList.add("active");
   }
 }
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const lightboxAccessibilityFix = new MutationObserver(function () {
+    const closeButton = document.querySelector(".lb-close");
+
+    if (closeButton) {
+      closeButton.setAttribute("aria-label", "Close image gallery");
+    }
+  });
+
+  lightboxAccessibilityFix.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+});

@@ -41,6 +41,7 @@ navDropdowns.forEach(function(dropdown) {
 });
 
 
+
 //certain elements fade in when you scroll to them and out when you scroll away
 const fade = document.querySelectorAll(".fade-in");
 
@@ -57,6 +58,5 @@ const observer = new IntersectionObserver(function(entries) {
 fade.forEach(function(element) {
   observer.observe(element);
 });
-
 
 
