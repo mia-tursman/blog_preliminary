@@ -509,6 +509,8 @@ grid-template-columns: 1fr;}
     text-align: center;
     color:#c6c6c6;
     opacity:90%;
+    width:fit-content;
+    justify-content: center;
 
 }
 
@@ -516,15 +518,15 @@ grid-template-columns: 1fr;}
  text-align: center;
   color: #c6c6c6;
   font-size: 40px;
-  letter-spacing: 4px;
+  
   border-radius: 10px;
-width: 90%;
+width: 100%;
 padding: 14px;
 background-color: rgba(106, 106, 163,0.5);
 }
 
 #galleryTitle {
-  width: 80%;
+ 
   margin: 40px auto;
   text-align: center;
 }
