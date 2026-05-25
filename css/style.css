@@ -548,7 +548,7 @@ img{width:100%}
 }
 
 #gallery img:hover,
-#gallery img:focus{
+#gallery a:focus img{
 transform: scale(1.04);
 box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 background-color: var(--gold)}
