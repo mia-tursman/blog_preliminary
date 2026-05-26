@@ -215,3 +215,26 @@ p {
   margin-bottom: 20px;
   line-height: 1.5;
 }
+
+.carousel-dots {
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 4px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  display: inline-block;
+  background-color: #bbb;
+  cursor: pointer;
+  appearance: none;
+}
+
+.dot.active,
+.dot:hover,
+.dot:focus {
+  background-color: #717171;
+}
